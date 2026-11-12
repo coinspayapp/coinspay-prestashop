@@ -48,7 +48,7 @@ The fee is as low as 0.3% of each payout: the rate goes down as the monthly turn
    - PrestaShop 1.6: Modules and Services → "Add a new module".
 3. Press "Configure" next to CoinsPay.
 
-PrestaShop warns that the module "could not be verified by PrestaShop": it says so of every module that does not come from the Addons marketplace. Confirm the installation.
+PrestaShop 1.7 to 9 install the module as soon as the upload ends. PrestaShop 1.6 first warns that the module "could not be verified by PrestaShop": it says so of every module that does not come from the Addons marketplace. Confirm the installation.
 
 The archive includes the installation guide in [English](docs/install-en.md) and [Russian](docs/install-ru.md).
 
