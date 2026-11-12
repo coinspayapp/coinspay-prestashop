@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset name="CoinsPay for PrestaShop">
+    <description>PHP compatibility of the module: PrestaShop 1.6 runs on PHP 5.6, 9.x on PHP 8.5.</description>
+
+    <arg name="extensions" value="php"/>
+    <arg value="sp"/>
+
+    <file>coinspay</file>
+
+    <rule ref="PHPCompatibility"/>
+    <config name="testVersion" value="5.6-"/>
+
+    <rule ref="Generic.PHP.DisallowShortOpenTag"/>
+    <rule ref="Generic.Files.ByteOrderMark"/>
+    <rule ref="Generic.Files.LineEndings">
+        <properties>
+            <property name="eolChar" value="\n"/>
+        </properties>
+    </rule>
+</ruleset>
